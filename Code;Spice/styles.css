@@ -1,79 +1,85 @@
-/* MASTER STYLES */
+/* Master styles */
 
 body {
     font-family: "Lato", arial;
-    margin: 10px;
+    background-color: #333131;
 }
 
-/* NAV STYLES */
+/* Nav bar styles */
 
-.box {
-    background-color: #ffff80;
-}
-.nav-wrapper {
-    display: flex;
-    justify-content: space-between;
-}
-
-.left-side {
-    display: flex;
+header {
+    width: auto;
+    height: 60px;
+    background-color: #333131;
+    font-family: "Lato", arial;
 }
 
-.nav-wrapper > .left-side > div {
-    margin-right: 20px;
-    font-size: 1.1em; /*1100% of original font size*/
-}
-
-.nav-wrapper > .right-side > div {
-    font-size: 1.1em; 
+.nav-header {
+    padding: 9px 20px;
+    float: right;
+    margin-left: 2%;
+    margin-top: 8px;
+    color: white;
     font-weight: bold;
 }
 
-.nav-link-wrapper {
-    height: 22px;
+ul {
+    width: auto;
+    float: left;
+    margin-top: 8px;
+}
+
+li {
+    display: inline-block;
+    padding: 9px 20px;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2vw;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
-
 }
 
-.nav-link-wrapper a {
-    color: black;
-    text-decoration: none;
-    transition: color 0.5s; 
-}
-
-.nav-link-wrapper:hover {
-    border-bottom: 1px solid black;
-}
-
-.nav-link-wrapper a:hover {
-    color: black;
+a:hover {   
+    color: white;   
+    border-bottom: 1px solid white;
 }
 
 .active-nav-link {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 
 .active-nav-link a{
-    color: black !important;
+    color: white !important;
 }
 
 /*About Page Styles*/
 
 
-.profile-image-wrapper img {
-    width: 100%;
-}
-
-.profile-content-wrapper {
-    padding: 30x
-}
-
-.profile-content-wrapper h1 {
-    color: lightseagreen;
-}
 /*Signup Page Styles*/
 
 #signup-form {
     text-align: center;
+}
+
+/*Tab Styles*/
+
+.column {
+    padding: 30px 30px;
+    text-align: center;
+}
+
+.box {
+    background-color: hsl(348, 100%, 61%);
+}
+
+p {
+    color: white;
+}
+
+.title {
+    color: white;
 }
