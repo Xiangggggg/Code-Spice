@@ -9,6 +9,10 @@ body {
     padding: 20px;
 }
 
+.hero-body {
+    background-color:hsl(348, 100%, 61%)
+}
+
 /* Nav bar styles */
 
 header {
