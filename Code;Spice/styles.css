@@ -23,6 +23,8 @@ header {
     font-family: "Lato", arial;
 }
 
+
+
 ul {
     width: auto;
     float: left;
@@ -36,7 +38,6 @@ li {
 
 .navbar-item{
     color: white !important;
-    font-weight: bold;
     text-decoration: none;
     font-size: 1.2vw;
     border-bottom: 1px solid transparent;
@@ -67,7 +68,10 @@ li {
 
 .columns {
     text-align: center;
+}
 
+.column {
+  display: flex;
 }
 
 .column-block {
