@@ -17,13 +17,11 @@ body {
 /* Nav bar styles */
 
 header {
-    width: auto;
+    width: 100%;
     height: 60px;
     background-color: #333131;
     font-family: "Lato", arial;
 }
-
-
 
 ul {
     width: auto;
@@ -91,6 +89,7 @@ li {
   position: relative;
   margin: auto;
 }
+
 
 /* Hide the images by default */
 .mySlides {
