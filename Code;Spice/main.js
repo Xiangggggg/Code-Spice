@@ -26,3 +26,12 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+void function() { 
+  const $burger = $(".navbar-burger")
+  if ($burger)
+    $burger.click(() => {
+      $(".navbar-menu").toggleClass("is-active");
+      $burger.toggleClass("is-active");
+    });
+}

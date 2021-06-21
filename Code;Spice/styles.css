@@ -1,8 +1,13 @@
 /* Master styles */
 
+html {
+  width: 100%;
+}
+
 body {
     font-family: "Lato", arial;
     background-color: #333131;
+    width: 100%;
 }
 
 .main-content {
@@ -40,13 +45,16 @@ li {
     font-size: 1.2vw;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
+    padding-bottom: 10px;
 }
 
 .navbar-item:hover {   
     border-bottom: 1px solid white;
+
 }
 
 .active-nav-link {
+    
     border-bottom: 1px solid white;
 }
 
@@ -87,13 +95,25 @@ li {
 .slideshow-container {
   width: 100% !important;
   position: relative;
-  margin: auto;
+  margin: 0;
 }
 
 
 /* Hide the images by default */
 .mySlides {
   display: none;
+  overflow: hidden;
+  height: 90vh;
+  position: relative;
+}
+
+.carousel-img {
+  width: 100%; 
+  height: auto; 
+  position: absolute; 
+  top: 0; 
+  bottom: 0; 
+  margin: auto;
 }
 
 /* Next & previous buttons */
