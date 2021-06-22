@@ -10,17 +10,24 @@
         <link rel="icon" href="images/pepper.png">
     </head>
 
-    <header>
-        <div class="navbar-brand">
-            <ul>
-              <li><a href="home.html" class="navbar-item">Home</a></li>
-              <li><a href="about.html" class="navbar-item active-nav-link">About</a></li>
-              <li><a href="signup.html" class="navbar-item">Sign Up</a></li>
-            </ul>
-        </div>
-      </header>
-
     <body>
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" target="navbar-content">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+            </div>
+            <div class="navbar-menu" id="navbar-content">
+              <div class="navbar-start">
+                <a href="home.html" class="navbar-item">Home</a>
+                <a href="about.html" class="navbar-item active-nav-link">About</a>
+                <a href="signup.html" class="navbar-item">Sign Up</a>
+              </div>  
+            </div>
+        </nav>
+
         <div class="main-content">
             <div class="about-block">
                 <div class="box">
@@ -82,4 +89,5 @@
             </div>
         </div>  
     </body>
+    <script src="main.js"></script>
 </html>

@@ -21,40 +21,22 @@ body {
 
 /* Nav bar styles */
 
-header {
-    height: 60px;
-    font-family: "Lato", arial;
-}
-
-.navbar-brand {
+.navbar-menu {
+  height: 60px;
   width: 100%;
 }
 
-ul {
+.navbar-start {
     width: auto;
-    float: left;
-    margin-top: 8px;
     margin-left: 10px;
 }
 
-li {
-    display: inline-block;
-    
-}
 
 .navbar-item{
-  background: transparent;
   color: white !important;
   text-decoration: none;
   font-size: 1.2vw;
   border-bottom: 1px solid transparent;
-  transition: border-bottom 0.5s;
-  padding-bottom: 10px;
-}
-
-.navbar-item:hover {   
-    border-bottom: 1px solid white;
-
 }
 
 .active-nav-link {

@@ -16,30 +16,22 @@
 
     <body>
       <!-- Nav Bar -->
-      <header>
-        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
-          <div class="navbar-brand">
-            <ul>
-              <li><a href="home.html" class="navbar-item active-nav-link">Home</a></li>
-              <li><a href="about.html" class="navbar-item">About</a></li>
-              <li><a href="signup.html" class="navbar-item">Sign Up</a></li>
-            </ul>
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-            </a>
-        </nav>
-        <!--
-        <div id="navMenu" class="navbar-menu">
-          <div class="navbar-end">
-            <a href="#" class="navbar-item active-nav-link">Home</a>
-            <a href="#" class="navbar-item">About</a>
-            <a href="#" class="navbar-item">Sign Up</a>
-          </div>
+      <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" target="navbar-content">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
         </div>
-        -->
-      </header>
+        <div class="navbar-menu" id="navbar-content">
+          <div class="navbar-start">
+            <a href="home.html" class="navbar-item active-nav-link">Home</a>
+            <a href="about.html" class="navbar-item">About</a>
+            <a href="signup.html" class="navbar-item">Sign Up</a>
+          </div>  
+        </div>
+    </nav>
       <!-- Carousel --> 
       <div class="slideshow-container">
 
