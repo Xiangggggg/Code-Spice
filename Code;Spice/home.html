@@ -9,44 +9,35 @@
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.2/css/bulma.min.css">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
         <link rel="icon" href="images/pepper.png">
     </head>
 
-    
-
     <body>
       <!-- Nav Bar -->
-      <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" target="navbar-content">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
-        <div class="navbar-menu" id="navbar-content">
-          <div class="navbar-start">
-            <a href="home.html" class="navbar-item active-nav-link">Home</a>
-            <a href="about.html" class="navbar-item">About</a>
-            <a href="signup.html" class="navbar-item">Sign Up</a>
-          </div>  
-        </div>
-    </nav>
-      <!-- Carousel --> 
+      <nav> 
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="signup.html">Sign Up!</a></li>
+            <div class="closeMenu"><i class="fa fa-times"></i></div>
+        </ul>
+      </nav>
+
+      <!-- Carousel -->  
       <div class="slideshow-container">
 
         <div class="mySlides fade">
-          <img src="images/banner4.png" class="carousel-img">
+          <img src="images/banner.png" class="carousel-img">
         </div>
       
         <div class="mySlides fade">
           <img src="images/python.jpg" class="carousel-img">
-          <div class="text">Somrishi is amazing at python</div>
         </div>
       
         <div class="mySlides fade">
           <img src="images/pants.png" class="carousel-img">
-          <div class="text">Damn yasha</div>
         </div>
       
         <!-- Next and previous buttons -->
@@ -74,7 +65,7 @@
           <div class="column">
             <div class="box">
               <h3 class="title">What is the cost to attending?</h3>
-              <p>Code;Spice is completely free! Also, there isn't a huge time commitment necessary to this program.</p>
+              <p>Code;Spice is completely free! Also, there isn't a huge time commitment necessary to this program. Our schedules are built to accomodate yours!</p>
             </div>
           </div>
 
