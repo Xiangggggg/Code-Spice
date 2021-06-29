@@ -8,6 +8,7 @@ body {
     font-family: "Lato", arial;
     background-color: hsl(0, 0%, 21%);
     width: 100%;
+    position: relative;
 }
 
 .main-content {
@@ -54,6 +55,7 @@ nav .openMenu {
   display: none;
   cursor: pointer;
 }
+
 nav .mainMenu .closeMenu , .icons i {
   font-size: 2rem;
   display: none;
@@ -90,28 +92,40 @@ nav .mainMenu .closeMenu , .icons i {
       font-size: 1.6rem;
       border-bottom: 1px solid transparent;
   }
+  .icons i {
+    display: inline-block;
+    padding: 12px;
+  }
 }
 
 /*About Page Styles*/
 
+#top-block {
+  margin: 0;
+}
 .about-block {
     margin-top: 20px;
+}
+
+.pfp {
+  min-width: 400px;
+  width: 40vw;
 }
 
 /*Signup Page Styles*/
 
 #signup-form {
-    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    min-width: 463px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 /*Home Page Styles*/
 
-.columns {
-    text-align: center;
-}
-
 .column {
-  display: flex;
+  text-align: center;
 }
 
 .column-block {
@@ -129,25 +143,31 @@ nav .mainMenu .closeMenu , .icons i {
 .slideshow-container {
   width: 100% !important;
   position: relative;
-  margin: 0;
+  margin: 0px;
+  height: 60vh;
 }
 
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+  display: flex;
+  height: 60vh;
   overflow: hidden;
-  height: 90vh;
+  margin: 0px;
   position: relative;
 }
 
 .carousel-img {
   width: 100%; 
+  min-height: 50vh;
   height: auto; 
   position: absolute; 
   top: 0; 
   bottom: 0; 
-  margin: auto;
+  margin: 0px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 /* Next & previous buttons */
@@ -175,17 +195,6 @@ nav .mainMenu .closeMenu , .icons i {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
 }
 
 /* Caption text */
