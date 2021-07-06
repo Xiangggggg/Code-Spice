@@ -28,6 +28,13 @@ body {
 
 }
 
+.nav-icon {
+  height: 40px;
+  width: 40px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
 nav {
   background-color: hsl(0, 0%, 21%);
   color: #fff;
