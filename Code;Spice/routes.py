@@ -4,7 +4,7 @@ main = Blueprint("main", __name__)
 
 @main.route("/")
 def home():
-    return render_template("index.html", title="Home")
+    return render_template("about.html", title="Home")
 
 @main.route("/home")
 def redirect_home():
