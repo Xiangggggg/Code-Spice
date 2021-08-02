@@ -12,7 +12,7 @@ def redirect_home():
 
 @main.route("/search")
 def redirect_s():
-    return redirect("www.google.com")
+    return redirect("http://www.google.com")
 
 @main.route("/about")
 def about():
