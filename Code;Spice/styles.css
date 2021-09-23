@@ -134,11 +134,23 @@ nav .mainMenu .closeMenu , .icons i {
 
 .column {
   text-align: center;
+  display: flex;
 }
 
+.column .box .title {
+    color: hsl(0, 0%, 21%);
+}
+
+.column .box p {
+    color:black;
+}
+.column .box {
+    background-color: rgb(176,196,222); 
+    
+}
 
 .hero-body {
-    background-color:hsl(348, 100%, 61%)
+    background-color:rgb(176,196,222);
 }
 
 /* Carousel Styles */
@@ -219,7 +231,7 @@ nav .mainMenu .closeMenu , .icons i {
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
+  margin: 0px 2px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
