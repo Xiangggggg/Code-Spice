@@ -161,14 +161,14 @@ nav .mainMenu .closeMenu , .icons i {
   width: 100% !important;
   position: relative;
   margin: 0px;
-  height: 60vh;
+  height: 70vh;
 }
 
 
 /* Hide the images by default */
 .mySlides {
   display: flex;
-  height: 60vh;
+  height: 70vh;
   overflow: hidden;
   margin: 0px;
   position: relative;
@@ -176,7 +176,7 @@ nav .mainMenu .closeMenu , .icons i {
 
 .carousel-img {
   width: 100%; 
-  min-height: 50vh;
+  min-height: 70vh;
   height: auto; 
   position: absolute; 
   top: 0; 
@@ -263,14 +263,39 @@ nav .mainMenu .closeMenu , .icons i {
 /*Tab Styles*/
 
 .box {
-    background-color: hsl(348, 100%, 61%);
+    background-color: hsl(348, 100%, 70%);
 }
 
 p {
-    color: white;
+    color: black;
 }
 
 .title {
-    color: white;
+    color: hsl(0, 0%, 21%);
 }
 
+/* Review Styles*/
+
+.review-content {
+    padding: 20px;
+}
+
+.review-content .columns .column .box {
+    background-color: hsl(0, 100%, 96%);
+}
+
+.review-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.centered-review{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.centered-review .title {
+    font-size: 80px;
+}
