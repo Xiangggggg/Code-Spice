@@ -118,6 +118,11 @@ nav .mainMenu .closeMenu , .icons i {
 .pfp {
   min-width: 300px;
   width: 40vw;
+  margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Signup Page Styles*/
