@@ -225,7 +225,7 @@ nav .mainMenu .closeMenu , .icons i {
 
 /* Caption text */
 .slides-caption {
-  color: #f2f2f2;
+  color: white;
   font-size: 50px;  
   padding: 8px 12px;
   top: 50%;
@@ -318,7 +318,7 @@ p {
 
 /*Link styles*/
 a:link {
-    color: rgb(25,25,112);
+    color: rgb(0,0,205);
     background-color: transparent;
     text-decoration: underline;
   }
