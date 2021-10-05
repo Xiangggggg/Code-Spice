@@ -20,6 +20,10 @@ body {
     padding: 20px;
 }
 
+.bottom-text p {
+    color: white;
+}
+
 /* Nav bar styles */
 * {
   box-sizing: border-box;
@@ -220,12 +224,14 @@ nav .mainMenu .closeMenu , .icons i {
 }
 
 /* Caption text */
-.text {
+.slides-caption {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 50px;  
   padding: 8px 12px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   position: absolute;
-  bottom: 8px;
   width: 100%;
   text-align: center;
 }
@@ -286,7 +292,7 @@ p {
 }
 
 .review-content .columns .column .box {
-    background-color: hsl(0, 100%, 96%);
+    background-color: hsl(5, 92%, 90%);
 }
 
 .review-container {
@@ -304,3 +310,19 @@ p {
 .centered-review .title {
     font-size: 80px;
 }
+
+.review-pfp {
+    width: 218px;
+    height: 240px;
+}
+
+/*Link styles*/
+a:link {
+    color: rgb(25,25,112);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:hover {
+    color: white;
+    background-color: transparent; 
+  }
