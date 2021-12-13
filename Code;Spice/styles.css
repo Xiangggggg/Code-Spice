@@ -325,3 +325,38 @@ a:link {
     color: white;
     background-color: transparent; 
   }
+
+/* Donations Page */
+.donate-img {
+  width: 100%; 
+  min-height: 70vh;
+  height: auto; 
+  top: 0; 
+  bottom: 0; 
+  margin: 0px;
+  top: 50%;
+}
+
+iframe[name=donorbox] {
+
+    max-width: 425px !important;
+  
+    margin: auto;
+  
+    display: block;
+    width: 500px;
+}
+
+.donation-column {
+    text-align: center;
+    display: flex;
+  }
+
+.donation-column .box .title {
+    color: hsl(0, 0%, 21%);
+}
+.donation-column .box p {
+    color:black;
+    line-height: 2.0;
+}
+
