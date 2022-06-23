@@ -23,6 +23,10 @@ body {
     color: white;
 }
 
+p {
+  line-height: 1.7;
+}
+
 /* Nav bar styles */
 * {
   box-sizing: border-box;
